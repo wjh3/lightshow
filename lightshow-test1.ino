@@ -11,6 +11,7 @@
 #define DATA_PIN 10
 CRGB leds[NUM_LEDS];	  //Define the array of leds
 char data = 0;            //Variable for storing received data
+static uint8_t hue;
 
 void setup()
 {
