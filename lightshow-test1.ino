@@ -7,6 +7,8 @@
 */
 //Edited and adapted to local project by wjh3
 
+#include "FastLED.h"
+
 #define NUM_LEDS 360
 #define DATA_PIN 10
 CRGB leds[NUM_LEDS];	  //Define the array of leds
