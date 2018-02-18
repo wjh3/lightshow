@@ -23,6 +23,8 @@ void setup()
 	LEDS.setBrightness(120);
 }
 
+void fadeall() { for(int i = 0; i < NUM_LEDS; i++) { leds[i].nscale8(250); } } 
+
 void loop()
 {
    if(Serial.available() > 0) {      // Send data only when you receive data:
